@@ -38,12 +38,14 @@
 
 ### До оптимізації (Послідовне сканування / Sequential Scan)
 Пошукові запити за неіндексованими зовнішніми ключами або атрибутами (наприклад, пошук записів видачі за ID користувача чи його прізвищем) змушують PostgreSQL виконувати повне сканування таблиці (`Seq Scan`), що призводить до високого часу виконання запиту.
-<img width="1159" height="211" alt="image" src="https://github.com/user-attachments/assets/f73080c2-a368-4e07-ad24-977e144b88f9" />
+<img width="583" height="137" alt="image" src="https://github.com/user-attachments/assets/494a4f75-b618-4a34-90f1-e6e4a79f1324" />
+<img width="1071" height="310" alt="image" src="https://github.com/user-attachments/assets/019b7cd5-5026-40d4-9f90-469e5e7a165e" />
+
+
 
 ### Після оптимізації (Сканування індексу / Index Scan)
 Завдяки додаванню цільових B-Tree індексів на зовнішні ключі та поля пошуку, які часто використовуються:
 <img width="1159" height="211" alt="image" src="https://github.com/user-attachments/assets/6a84a984-c1ac-419c-99a4-b5fc7c7bb4fa" />
-<img width="1159" height="211" alt="image" src="https://github.com/user-attachments/assets/242b847d-6482-4b20-8ef2-a66758f3f831" />
 
 
 Рідмі було сформовано за допомогою ші на основі моїх даних 
