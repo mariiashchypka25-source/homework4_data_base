@@ -38,7 +38,6 @@
 
 ### До оптимізації (Послідовне сканування / Sequential Scan)
 Пошукові запити за неіндексованими зовнішніми ключами або атрибутами (наприклад, пошук записів видачі за ID користувача чи його прізвищем) змушують PostgreSQL виконувати повне сканування таблиці (`Seq Scan`), що призводить до високого часу виконання запиту.
-<img width="583" height="137" alt="image" src="https://github.com/user-attachments/assets/494a4f75-b618-4a34-90f1-e6e4a79f1324" />
 <img width="1071" height="310" alt="image" src="https://github.com/user-attachments/assets/019b7cd5-5026-40d4-9f90-469e5e7a165e" />
 
 
