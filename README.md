@@ -43,6 +43,8 @@
 ### Після оптимізації (Сканування індексу / Index Scan)
 Завдяки додаванню цільових B-Tree індексів на зовнішні ключі та поля пошуку, які часто використовуються:
 <img width="1159" height="211" alt="image" src="https://github.com/user-attachments/assets/6a84a984-c1ac-419c-99a4-b5fc7c7bb4fa" />
+<img width="1159" height="211" alt="image" src="https://github.com/user-attachments/assets/242b847d-6482-4b20-8ef2-a66758f3f831" />
+
 
 Рідмі було сформовано за допомогою ші на основі моїх даних 
 
